@@ -1,0 +1,456 @@
+{
+  "sections": {
+    "6e0008e2-0af4-4e1c-b7e0-331b87124a8f": {
+      "type": "hero-slideshow",
+      "blocks": {
+        "template--15927458496708__6e0008e2-0af4-4e1c-b7e0-331b87124a8f-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hero.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Hero_26999e88-5d6e-4c53-9174-1e2ded21e6d9.png",
+            "title": "Made with nothing but the sweet stuff!",
+            "richtext": "<p>No sugar added. No sugar alcohols. 7g fibre.<\/p>",
+            "cta_url": "shopify:\/\/collections\/all",
+            "cta_text": "Shop Now",
+            "place_content": "inherit",
+            "text_align": "inherit",
+            "text_overlay_color": "same_as_section"
+          }
+        },
+        "template--15927458496708__6e0008e2-0af4-4e1c-b7e0-331b87124a8f-slide-2": {
+          "type": "slide",
+          "settings": {
+            "title": "Hero slideshow",
+            "richtext": "",
+            "cta_url": "",
+            "cta_text": "Shop Now",
+            "place_content": "inherit",
+            "text_align": "inherit",
+            "text_overlay_color": "same_as_section"
+          }
+        },
+        "95701da0-c2a8-4c45-92af-8270805b5b82": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "tertiary",
+            "style": "large-waves_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15927458496708__6e0008e2-0af4-4e1c-b7e0-331b87124a8f-slide-1",
+        "template--15927458496708__6e0008e2-0af4-4e1c-b7e0-331b87124a8f-slide-2",
+        "95701da0-c2a8-4c45-92af-8270805b5b82"
+      ],
+      "settings": {
+        "style": "full",
+        "height": "natural",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": false,
+        "auto_rotate": false,
+        "slide_speed": "5000",
+        "place_content": "place-content-center-start",
+        "text_align": "text-left",
+        "heading_size": "heading-standard",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "16508912994a26e8bf": {
+      "type": "rich-text",
+      "custom_css": [
+        ".py-section-vertical-spacing {padding: 60px 0px 0px;}",
+        "h2 {max-width: 450px; margin: 0px auto; font-size: 50px; color: #000; letter-spacing: -1.5px;}",
+        "@media (max-width: 768px) {h2 {font-size: 28px; letter-spacing: -0.84px; max-width: 250px; }}"
+      ],
+      "settings": {
+        "title": "No sugar added. 100% tasty.",
+        "heading_size": "heading-standard",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-1\/2",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "tertiary",
+        "background_override": "",
+        "use_gradient_background": false
+      }
+    },
+    "1650891303c44cb2d2": {
+      "type": "icon-list",
+      "blocks": {
+        "16508913039d58ab55-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "funday_zero_sugar",
+            "text": "Zero sugar alcohols",
+            "rotate": 0,
+            "margin_top": 114
+          }
+        },
+        "16508913039d58ab55-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "funday_prebiotic_fibre",
+            "text": "Prebiotic fibre",
+            "rotate": 0,
+            "margin_top": 52
+          }
+        },
+        "16508913039d58ab55-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "funday_health_star",
+            "text": "Health star ratings",
+            "rotate": 0,
+            "margin_top": 0
+          }
+        },
+        "2d49c667-6651-4aec-9f2e-b5b01b310ecd": {
+          "type": "icon",
+          "settings": {
+            "icon": "funday_gluten_free",
+            "text": "Gluten free",
+            "rotate": 0,
+            "margin_top": 0
+          }
+        },
+        "2eb4a361-85df-445d-a708-84d7e4173322": {
+          "type": "icon",
+          "settings": {
+            "icon": "funday_natural_colours",
+            "text": "Natural colours & flavours",
+            "rotate": 0,
+            "margin_top": 52
+          }
+        },
+        "eb42bfa2-e2b9-4bfe-8b67-b4e7b94efbf6": {
+          "type": "icon",
+          "settings": {
+            "icon": "funday_sugar_free",
+            "text": "Zero added sugar",
+            "rotate": 0,
+            "margin_top": 114
+          }
+        }
+      },
+      "block_order": [
+        "16508913039d58ab55-0",
+        "16508913039d58ab55-1",
+        "16508913039d58ab55-2",
+        "2d49c667-6651-4aec-9f2e-b5b01b310ecd",
+        "2eb4a361-85df-445d-a708-84d7e4173322",
+        "eb42bfa2-e2b9-4bfe-8b67-b4e7b94efbf6"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {li span {width: 80px; } li h2 {font-size: 14px; } li {max-width: 120px !important; }}"
+      ],
+      "settings": {
+        "title": "",
+        "max_width": 120,
+        "text_style": "body",
+        "color_scheme": "tertiary",
+        "use_gradient_background": false
+      }
+    },
+    "dbe0ce2f-353f-499c-a787-f53cc501356a": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        "img {max-width: 50%; margin: 0px 17rem; max-height: 505px; z-index: 999; position: relative; left: -4%; margin: 0 auto;}",
+        "@media (min-width: 1441px) {img {margin: 0 auto; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/USPs.svg",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": false,
+        "style": "full",
+        "height": "natural",
+        "place_content": "place-content-start-center",
+        "text_align": "text-center",
+        "title": "",
+        "heading_size": "heading-standard",
+        "richtext": "",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "tertiary",
+        "use_gradient_background": false,
+        "text_overlay_color": "same_as_section"
+      }
+    },
+    "1650891358fef95dd4": {
+      "type": "featured-collection",
+      "custom_css": [
+        "ul li.splide__slide {margin-right: 1.2rem !important;}",
+        "a.inline-block.push-btn.mx-5.mx-5.mt-1.lg\\:mt-0 {width: 194px;}",
+        "h3.font-body.text-base {font-size: 26px;}",
+        "select {display: none;}",
+        ".media-style-container img {object-fit: cover;}",
+        ".push-btn-surface {width: 100%;}",
+        "@media (min-width: 990px) {.media-style-container, .media-style-container img {min-height: 389px; }}",
+        "@media (max-width: 990px) {.media-style-container {min-height: 200px; }}"
+      ],
+      "settings": {
+        "title": "Shop our range",
+        "subheading": "",
+        "collection": "all",
+        "no_products": 18,
+        "show_view_all": true,
+        "enable_quick_buy": true,
+        "display_on_card": false,
+        "layout": "carousel",
+        "view_all_position": "top",
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "slideshow_focus": "center",
+        "mobile_slide_width": "three_fifths",
+        "desktop_slide_width": 25,
+        "autoscroll_mode": "1",
+        "product_tiles_aspect_ratio": "natural",
+        "image_shape": "default",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "165089147572b58f85": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "c31b88d1-819e-475b-af38-bbc2b06863a1": {
+          "type": "icon",
+          "settings": {
+            "icon": "funday_dollar_sign",
+            "text": "10% off <br> every order",
+            "max_width": 75
+          }
+        },
+        "c040960c-5c18-45c1-85e6-b06777dedf47": {
+          "type": "icon",
+          "settings": {
+            "icon": "funday_close_doodle",
+            "text": "Cancel <br> anytime",
+            "max_width": 75
+          }
+        },
+        "bfb6585e-8abd-400f-bc15-5e99f3b01880": {
+          "type": "icon",
+          "settings": {
+            "icon": "funday_delivery",
+            "text": "Free domestic <br> shipping",
+            "max_width": 75
+          }
+        }
+      },
+      "block_order": [
+        "c31b88d1-819e-475b-af38-bbc2b06863a1",
+        "c040960c-5c18-45c1-85e6-b06777dedf47",
+        "bfb6585e-8abd-400f-bc15-5e99f3b01880"
+      ],
+      "custom_css": [
+        ".object-wrapper {min-height: 600px;}",
+        "p {font-sze: 1.5rem;}",
+        "a.headerslider-cta,a.headerslider-cta span {width: 200px;}",
+        "@media (max-width: 768px) {.object-wrapper {min-height: 700px; } li {max-width: 100px !important; padding: 0px 5px !important; } li > p {font-size: var(--font-size-xs) !important; } .headerslider-title-block {padding-left: 0px !important; } h2 {font-size: 28px; }}",
+        "@media (max-width: 375px) {li {max-width: 120px !important; }}",
+        "@media (max-width: 639px) {.place-content-center-start {place-content: start start; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Vector.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Subscribe_bg-mobile.webp",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": false,
+        "style": "full",
+        "height": "natural",
+        "place_content": "place-content-center-start",
+        "text_align": "text-left",
+        "title": "Do you love Funday as much as we do?",
+        "heading_size": "heading-standard",
+        "richtext": "<p>We’ve got your covered with a subscription service that will knock your peach sour socks off!<\/p>",
+        "cta_url": "shopify:\/\/pages\/subscription-page",
+        "cta_text": "Subscribe & Save",
+        "color_scheme": "primary",
+        "use_gradient_background": false,
+        "text_overlay_color": "same_as_section"
+      }
+    },
+    "1e9fab01-1783-4dc0-93ab-da6e3798cbaa": {
+      "type": "shape-slideshow",
+      "blocks": {
+        "template--15931582185668__1e9fab01-1783-4dc0-93ab-da6e3798cbaa-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ampol.webp",
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "",
+            "url": "https:\/\/www.ampol.com.au\/"
+          }
+        },
+        "template--15931582185668__1e9fab01-1783-4dc0-93ab-da6e3798cbaa-image-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Chemist_warehouse.webp",
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "",
+            "url": "https:\/\/www.chemistwarehouse.com.au\/"
+          }
+        },
+        "template--15931582185668__1e9fab01-1783-4dc0-93ab-da6e3798cbaa-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Harris_Farm.webp",
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "",
+            "url": "https:\/\/www.harrisfarm.com.au\/"
+          }
+        },
+        "template--15931582185668__1e9fab01-1783-4dc0-93ab-da6e3798cbaa-image-5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHS.webp",
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "",
+            "url": "https:\/\/whsmith.com.au\/"
+          }
+        },
+        "template--15931582185668__1e9fab01-1783-4dc0-93ab-da6e3798cbaa-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9e7173a0471812adba18de89fe007815.png",
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "",
+            "url": "https:\/\/www.chemistwarehouse.co.nz\/"
+          }
+        },
+        "4f173dbd-5c3d-42c3-8b3d-51a51aa0924b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coles_Express.jpg",
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "",
+            "url": "https:\/\/www.coles.com.au\/"
+          }
+        },
+        "template--15931582185668__1e9fab01-1783-4dc0-93ab-da6e3798cbaa-image-6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Woolworth.webp",
+            "image_shape": "default",
+            "rotate_image": 0,
+            "button_text": "",
+            "url": "https:\/\/www.woolworths.com.au\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--15931582185668__1e9fab01-1783-4dc0-93ab-da6e3798cbaa-image-1",
+        "template--15931582185668__1e9fab01-1783-4dc0-93ab-da6e3798cbaa-image-4",
+        "template--15931582185668__1e9fab01-1783-4dc0-93ab-da6e3798cbaa-image-3",
+        "template--15931582185668__1e9fab01-1783-4dc0-93ab-da6e3798cbaa-image-5",
+        "template--15931582185668__1e9fab01-1783-4dc0-93ab-da6e3798cbaa-image-2",
+        "4f173dbd-5c3d-42c3-8b3d-51a51aa0924b",
+        "template--15931582185668__1e9fab01-1783-4dc0-93ab-da6e3798cbaa-image-6"
+      ],
+      "custom_css": [
+        "img {width: 80%;}",
+        ".splide__arrows {display: none;}",
+        "h2 {font-size: 50px;}",
+        "@media (max-width: 768px) {h2 {font-size: 28px; }}",
+        ".splide__slide .media-style-container img.media-style {border-radius: 0 !important;}"
+      ],
+      "settings": {
+        "title": "Find us in store",
+        "slideshow_focus": "center",
+        "mobile_slide_width": "three_fifths",
+        "desktop_slide_width": 15,
+        "autoscroll_mode": "1",
+        "crop": "",
+        "button_style": "push-btn-surface",
+        "show_buttons_on_mobile": false,
+        "only_show_button_on_hover": true,
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "4603e986-e51e-4491-aaee-08d31351fbc3": {
+      "type": "image-with-text",
+      "blocks": {
+        "48aa500b-5d47-43d6-9ce5-212b1b3c8f14": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "quaternary",
+            "style": "large-waves_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "48aa500b-5d47-43d6-9ce5-212b1b3c8f14"
+      ],
+      "custom_css": [
+        ".media-style {overflow: hidden; border-radius: 30px;}",
+        ".py-section-vertical-spacing {padding-top: 0px;}"
+      ],
+      "settings": {
+        "display_on_card": false,
+        "image": "shopify:\/\/shop_images\/a6f823da86479d86e26ef9242b7a093f.png",
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "left",
+        "image_size": "half",
+        "disable_media_style": true,
+        "title": "Our story",
+        "heading_size": "heading-standard",
+        "richtext": "<p>It all started with a transformation story. Daniel - the guy who started all this - had an unhealthy relationship with food. He felt out of control around sugar! Something had to change.<\/p>",
+        "text_alignment": "text-left",
+        "button_link": "shopify:\/\/pages\/ourstory",
+        "button_label": "Learn more",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "8c0d184c-ba61-4cb8-93cf-8df41a7ae83f": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": false,
+        "style": "full",
+        "height": "natural",
+        "place_content": "place-content-center-center",
+        "text_align": "text-center",
+        "title": "Image with text overlay",
+        "heading_size": "heading-standard",
+        "richtext": "",
+        "cta_url": "",
+        "cta_text": "Shop Now",
+        "color_scheme": "primary",
+        "use_gradient_background": false,
+        "text_overlay_color": "same_as_section"
+      }
+    }
+  },
+  "order": [
+    "6e0008e2-0af4-4e1c-b7e0-331b87124a8f",
+    "16508912994a26e8bf",
+    "1650891303c44cb2d2",
+    "dbe0ce2f-353f-499c-a787-f53cc501356a",
+    "1650891358fef95dd4",
+    "165089147572b58f85",
+    "1e9fab01-1783-4dc0-93ab-da6e3798cbaa",
+    "4603e986-e51e-4491-aaee-08d31351fbc3",
+    "8c0d184c-ba61-4cb8-93cf-8df41a7ae83f"
+  ]
+}

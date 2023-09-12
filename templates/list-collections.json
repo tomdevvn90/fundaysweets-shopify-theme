@@ -1,0 +1,185 @@
+{
+  "sections": {
+    "750d01ec-6a2f-4c2f-8901-049b90a7d6ad": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "65c581a6-0276-49f1-8681-4d845bbed36c": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "primary",
+            "style": "large-waves_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "65c581a6-0276-49f1-8681-4d845bbed36c"
+      ],
+      "custom_css": [
+        "h2 {text-align: left;}",
+        ".max-w-lg {max-width: 75%;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/device_Desktop_page_Shop_all.png",
+        "image_mobile": "shopify:\/\/shop_images\/device_Mobile_page_Shop_all.png",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": false,
+        "style": "full",
+        "height": "natural",
+        "place_content": "place-content-center-start",
+        "text_align": "text-center",
+        "title": "Shop our range of delicious healthy lollies.",
+        "heading_size": "heading-standard",
+        "richtext": "",
+        "cta_url": "",
+        "cta_text": "Shop Now",
+        "color_scheme": "primary",
+        "use_gradient_background": false,
+        "text_overlay_color": "same_as_section"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "crop": "aspect-w-3 aspect-h-4",
+        "image_shape": "",
+        "no_products": 18,
+        "show_collection_description": true,
+        "show_view_all": false,
+        "display_on_card": false,
+        "enable_quick_buy": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "slideshow_focus": "center",
+        "mobile_slide_width": "three_fifths",
+        "desktop_slide_width": 40,
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "collage": {
+      "type": "main-list-collections-collage",
+      "disabled": true,
+      "settings": {
+        "crop": "aspect-w-1 aspect-h-1",
+        "image_shape": "default",
+        "button_style": "push-btn-surface",
+        "show_buttons_on_mobile": false,
+        "only_show_button_on_hover": true,
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "935d87d2-335b-4d60-b459-aead07ca7fd4": {
+      "type": "all-collections-product-list",
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "collection": "all",
+        "show_view_all": false,
+        "enable_quick_buy": true,
+        "display_on_card": false,
+        "layout": "grid",
+        "view_all_position": "bottom",
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "product_tiles_aspect_ratio": "",
+        "image_shape": "",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "bba0f916-8c7f-45fd-9682-94b6911556ca": {
+      "type": "faq",
+      "blocks": {
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-1": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+          }
+        },
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-2": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+          }
+        },
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-3": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+          }
+        },
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-4": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+          }
+        },
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-5": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+          }
+        },
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-6": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+          }
+        },
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-7": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+          }
+        },
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-8": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-1",
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-2",
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-3",
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-4",
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-5",
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-6",
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-7",
+        "template--15927458529476__bba0f916-8c7f-45fd-9682-94b6911556ca-question-8"
+      ],
+      "settings": {
+        "display_on_card": false,
+        "heading_text_style": "heading",
+        "two_columns_desktop": false,
+        "title": "Frequently asked questions",
+        "richtext": "",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    }
+  },
+  "order": [
+    "750d01ec-6a2f-4c2f-8901-049b90a7d6ad",
+    "main",
+    "collage",
+    "935d87d2-335b-4d60-b459-aead07ca7fd4",
+    "bba0f916-8c7f-45fd-9682-94b6911556ca"
+  ]
+}

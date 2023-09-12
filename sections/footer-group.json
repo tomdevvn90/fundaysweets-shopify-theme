@@ -1,0 +1,59 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "tagline-and-social-links-0": {
+          "type": "tagline_and_social_links",
+          "settings": {
+            "tagline": "",
+            "show_social_icons": true,
+            "logo": "shopify:\/\/shop_images\/funday-logo-footer.png",
+            "logo_max_width": 180
+          }
+        },
+        "menus-0": {
+          "type": "menus",
+          "settings": {
+            "show_menu_headings": false,
+            "linklist_1": "fundayfootermenu1",
+            "linklist_2": "fundayfootermenu2"
+          }
+        },
+        "newsletter-0": {
+          "type": "newsletter",
+          "settings": {
+            "newsletter_heading": "Keep in touch",
+            "newsletter_text": "Surely <strong>free shipping<\/strong> for your first order is worth your burner email address"
+          }
+        }
+      },
+      "block_order": [
+        "tagline-and-social-links-0",
+        "menus-0",
+        "newsletter-0"
+      ],
+      "custom_css": [
+        "img.text-transparent {width: 210px;}",
+        "footer ul.flex.flex-wrap.-mx-2.-mt-2.justify-start.lg\\:justify-start li:first-child {margin-left: 1.5rem;}",
+        ".keepintouch {margin-bottom: 0.5rem; font-size: 28px;}",
+        "#NewsletterForm-sections--15931577073860__footer {box-shadow: none; height: 54px;}",
+        "#Subscribe-sections--15931577073860__footer {height: 51px;}",
+        "@media (min-width: 990px) {.lg\\:col-span-4 {grid-column: span 6 \/ span 3 !important; }}"
+      ],
+      "settings": {
+        "logo_max_width": 270,
+        "show_payment_icons": false,
+        "show_country_selector": false,
+        "show_locale_selector": false,
+        "color_scheme": "primary",
+        "use_gradient_background": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
