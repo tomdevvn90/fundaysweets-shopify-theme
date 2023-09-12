@@ -1,0 +1,189 @@
+{% assign icons = section.blocks | where: "type", "icon" %}
+{% capture icons_content %}
+  <div class="icon-list-subscribe-section">
+    {% for icon in icons %}
+      {% if icon.settings.icon %}
+        <div>
+          <div style="width: 75px; height: 75px; background-color: #fff; border-radius: 50%;">{% render 'theme-icon', icon: icon.settings.icon %}</div>
+          <h3>{{ icon.settings.text }}</h3>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endcapture %}
+
+<style>
+  #shopify-section--{{ section.id }}_ .ss-cta-left-content__inner {
+    padding-top: {{ section.settings.spacing_top }}
+    ;
+    padding-bottom: {{ section.settings.spacing_bottom }}
+    ;
+  }
+
+  @media(max-width: 955px) {
+    #shopify-section--{{ section.id }}_ .ss-cta-left-content__inner {
+      padding-bottom: calc({{ section.settings.spacing_bottom }} * 5);
+    }
+
+    #shopify-section--{{ section.id }}_ .ss-cta-left-content__image-decor {
+      width: 85%;
+      height: auto;
+      right: -18%;
+    }
+  }
+</style>
+
+<section id="shopify-section--{{ section.id }}_" class="ss-cta-left-content">
+  <div class="ss-cta-left-content__background" style="background-color: {{ section.settings.background_color }};"></div>
+  <div class="ss-cta-left-content__image-decor">
+    {{ section.settings.left_decor_image | image_url: width: 750 | image_tag }}
+  </div>
+  <div class="ss-cta-left-content__inner px-section text-scheme-text text-left">
+    <div class="ss-cta-left-content__entry">
+      <h2 class="ss-heading font-heading  heading-standard heading-style none ">{{ section.settings.heading }}</h2>
+      <div class="ss-desc rte text-theme-basic mt-5">{{ section.settings.descripion }}</div>
+      {{ icons_content }}
+      <a
+        class="button inline-block push-btn"
+        href="{{ section.settings.button_link }}"
+        target="_blank">
+        <span class="push-btn-surface">{{ section.settings.button_text }}</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": {
+      "en": "CTA Left Content SS"
+    },
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Do you love Funday as much as we do?"
+      },
+      {
+        "type": "richtext",
+        "id": "descripion",
+        "label": "Descripion",
+        "default": "<p>We've got your covered with a subscription service that will knock your peach sour socks off!</p>"
+      },
+      {
+        "type": "color_background",
+        "id": "background_color",
+        "label": "Background Color",
+        "default": "#F7BCAB"
+      },
+      {
+        "type": "image_picker",
+        "id": "left_decor_image",
+        "label": "Left Decor Image"
+      }, {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "Subscribe & save"
+      }, {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
+      }, {
+        "type": "checkbox",
+        "id": "show_buttton",
+        "label": "Show Button",
+        "default": true
+      }, {
+        "type": "text",
+        "id": "spacing_top",
+        "label": "Spacing Top",
+        "default": "15vw"
+      }, {
+        "type": "text",
+        "id": "spacing_bottom",
+        "label": "Spacing Bottom",
+        "default": "15vw"
+      }, {
+        "type": "header",
+        "content": "Tablet"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "icon",
+        "name": "t:sections.icon_list.blocks.icon.name",
+        "settings": [
+          {
+            "type": "select",
+            "id": "icon",
+            "label": "t:sections.icon_list.blocks.icon.settings.icon.label",
+            "options": [
+              {
+                "value": "funday_zero_sugar",
+                "label": "t:common.options.zero_sugar.label",
+                "group": "Funday"
+              },
+              {
+                "value": "funday_prebiotic_fibre",
+                "label": "t:common.options.prebiotic_fibre.label",
+                "group": "Funday"
+              },
+              {
+                "value": "funday_health_star",
+                "label": "t:common.options.health_star.label",
+                "group": "Funday"
+              },
+              {
+                "value": "funday_gluten_free",
+                "label": "t:common.options.gluten_free.label",
+                "group": "Funday"
+              }, {
+                "value": "funday_natural_colours",
+                "label": "t:common.options.natural_colours.label",
+                "group": "Funday"
+              }, {
+                "value": "funday_sugar_free",
+                "label": "t:common.options.sugar_free.label",
+                "group": "Funday"
+              }, {
+                "value": "funday_dollar_sign",
+                "label": "t:common.options.dollar_sign.label",
+                "group": "Funday"
+              }, {
+                "value": "funday_close_doodle",
+                "label": "t:common.options.close.label",
+                "group": "Funday"
+              }, {
+                "value": "funday_delivery",
+                "label": "t:common.options.delivery.label",
+                "group": "Funday"
+              }
+            ],
+            "default": "funday_gluten_free"
+          }, {
+            "type": "text",
+            "id": "text",
+            "label": "t:sections.icon_list.blocks.icon.settings.text.label"
+          }, {
+            "type": "range",
+            "id": "max_width",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "label": "t:sections.icon_list.settings.max_width.label",
+            "default": 50
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "CTA Left Content SS",
+        "category": "CTA"
+      }
+    ]
+  }
+{% endschema %}
