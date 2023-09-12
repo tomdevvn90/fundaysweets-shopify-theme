@@ -317,8 +317,8 @@
         "button_text": "Subscribe & save",
         "button_link": "",
         "show_buttton": true,
-        "spacing_top": "15vw",
-        "spacing_bottom": "15vw"
+        "spacing_top": "10vw",
+        "spacing_bottom": "10vw"
       }
     },
     "1e9fab01-1783-4dc0-93ab-da6e3798cbaa": {
