@@ -33,4 +33,10 @@
     width: 555px;
     max-width: 100%;
   }
+
+  @media(max-width:375px) {
+    .icon-list-subscribe-section {
+      font-size: .8em;
+    }
+  }
 }

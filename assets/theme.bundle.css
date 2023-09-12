@@ -29,3 +29,8 @@
   width: 555px;
   max-width: 100%;
 }
+@media (max-width: 375px) {
+  .ss-cta-left-content .icon-list-subscribe-section {
+    font-size: 0.8em;
+  }
+}
