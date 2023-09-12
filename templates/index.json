@@ -248,6 +248,7 @@
         "c040960c-5c18-45c1-85e6-b06777dedf47",
         "bfb6585e-8abd-400f-bc15-5e99f3b01880"
       ],
+      "disabled": true,
       "custom_css": [
         ".object-wrapper {min-height: 600px;}",
         "p {font-sze: 1.5rem;}",
@@ -273,6 +274,51 @@
         "color_scheme": "primary",
         "use_gradient_background": false,
         "text_overlay_color": "same_as_section"
+      }
+    },
+    "2b31b93e-cf1b-4c99-b0a2-cbe9af42ca46": {
+      "type": "cta-left-content-section",
+      "blocks": {
+        "d91fde40-ff8a-4781-be5c-e64f303b69e4": {
+          "type": "icon",
+          "settings": {
+            "icon": "funday_dollar_sign",
+            "text": "10% off <br> every order",
+            "max_width": 50
+          }
+        },
+        "92e23f2d-5c24-4dcd-b6d9-c6240ae3ff4f": {
+          "type": "icon",
+          "settings": {
+            "icon": "funday_close_doodle",
+            "text": "Cancel <br> anytime",
+            "max_width": 50
+          }
+        },
+        "85a54a3f-79bc-4a56-8ee8-5bb2628c2f11": {
+          "type": "icon",
+          "settings": {
+            "icon": "funday_delivery",
+            "text": "Free domestic <br> shipping",
+            "max_width": 50
+          }
+        }
+      },
+      "block_order": [
+        "d91fde40-ff8a-4781-be5c-e64f303b69e4",
+        "92e23f2d-5c24-4dcd-b6d9-c6240ae3ff4f",
+        "85a54a3f-79bc-4a56-8ee8-5bb2628c2f11"
+      ],
+      "settings": {
+        "heading": "Do you love Funday as much as we do?",
+        "descripion": "<p>We've got your covered with a subscription service that will knock your peach sour socks off!<\/p>",
+        "background_color": "#F7BCAB",
+        "left_decor_image": "shopify:\/\/shop_images\/Subscribe_a26ae69b-4bf9-4d2f-8aa1-11ba885c96ee.png",
+        "button_text": "Subscribe & save",
+        "button_link": "",
+        "show_buttton": true,
+        "spacing_top": "10vw",
+        "spacing_bottom": "10vw"
       }
     },
     "1e9fab01-1783-4dc0-93ab-da6e3798cbaa": {
@@ -449,6 +495,7 @@
     "dbe0ce2f-353f-499c-a787-f53cc501356a",
     "1650891358fef95dd4",
     "165089147572b58f85",
+    "2b31b93e-cf1b-4c99-b0a2-cbe9af42ca46",
     "1e9fab01-1783-4dc0-93ab-da6e3798cbaa",
     "4603e986-e51e-4491-aaee-08d31351fbc3",
     "8c0d184c-ba61-4cb8-93cf-8df41a7ae83f"
